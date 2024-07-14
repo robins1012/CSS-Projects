@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times, serif;
+    background-color: gray;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 1rem 0px;
+    padding: 0px 2rem;
+    text-align: justify;
+}
+
+ul,
+ol {
+    padding: 0px 2rem;
+}
+
+header {
+    margin: 3rem 0px;
+    text-align: center;
+}
+
+/* Method 1 */
+/* .tribute {
+    text-align: center;
+} */
+
+/* Method 2 */
+.tribute img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 2rem auto 5rem;
+}
+
+.bio {
+    margin: 3rem auto;
+    padding: 0 auto;
+    max-width: 80%;
+}
+
+.bio h2 {
+    padding: 1rem 0;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="title">
+                <h1>Survey Form</h1>
+                <p>Thank you for taking the time to help us improve the platform</p>
+            </div>
+            <form action="">
+                <div class="box1">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="box1">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Enter your email">
+                </div>
+                <div class="box1">
+                    <label for="age">Age(optional)</label>
+                    <input type="text" id="age" placeholder="Age">
+                </div>
+                <div class="box1">
+                    <label for="role">Which option best describes your current role?</label>
+                    <select name="role" id="role" required>
+                        <option value="student" selected>Student</option>
+                        <option value="full time job">Full time job</option>
+                        <option value="full time learner">Full time learner</option>
+                        <option value="prefer not to say">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="box1">
+                    <p>Would you recommend our website to your friend?</p>
+                    <input type="radio" name="recomm" id="defi" checked required>
+                    <label for="defi">Definitely</label>
+                    <input type="radio" name="recomm" id="maybe">
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" name="recomm" id="not_sure">
+                    <label for="not_sure">Not sure</label>
+                </div>
+                <div class="box1">
+                    <label for="feature">What is your favourite feature of our website?</label>
+                    <select name="feature" id="feature" required>
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community" selected>Community</option>
+                        <option value="open source">Open source</option>
+                    </select>
+                </div>
+                <div class="box1">
+                    <label for="comments">Any comments or suggestions?</label>
+                    <textarea name="comments" id="comments" placeholder="Enter your suggestions if any ....." cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div class="box1">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
